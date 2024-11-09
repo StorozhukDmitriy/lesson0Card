@@ -14,6 +14,11 @@ export const Button = styled.button<ButtonPropsType>`
   font-weight: 700;
   font-size: 10px;
   line-height: 20px;
+  &:hover{
+    cursor: pointer;
+    scale: 1.2;
+    transition: 0.3s;
+  }
   ${(props) =>
     props.primary &&
     css<ButtonPropsType>`
